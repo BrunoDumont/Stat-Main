@@ -1,0 +1,14 @@
+.NavOpenAnimation-enter {
+  opacity: 0;
+}
+.NavOpenAnimation-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.NavOpenAnimation-exit {
+  opacity: 1;
+}
+.NavOpenAnimation-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}

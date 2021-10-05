@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es5",
+    "module": "esnext",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"],
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"],
+      "@core/*": ["core/*"],
+      "@redux/*": ["redux/*"],
+      "@gql/*": ["graphqlRequest/*"],
+      "@public/*": ["public/*"]
+    }
+  },
+  "include": ["src"],
+  "files": ["src/index.d.ts"]
+}

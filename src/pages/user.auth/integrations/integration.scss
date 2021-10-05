@@ -1,0 +1,13 @@
+.react-tabs__tab-list {
+  border-bottom: 1px solid rgb(136 128 128 / 20%);
+}
+
+.react-tabs__tab--selected {
+  border: 1px solid rgb(136 128 128 / 20%);
+  background: #edf2f7;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  border-radius: 5px 5px 0 0;
+}
